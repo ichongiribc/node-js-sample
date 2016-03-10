@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=no">
+    <title>myscript-math-web demo</title>
+    <script src="../../webcomponentsjs/webcomponents-lite.js"></script>
+    <link rel="import" href="../myscript-math-web.html">
+
+</head>
+<style>
+    html, body {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    myscript-math-web {
+        height: calc(100% - 70px);
+    }
+</style>
+<body unresolved>
+<template id="app" is="dom-bind">
+    <myscript-math-web
+        applicationkey='f5d09f16-d511-44c4-abbd-7e3b83a24a3e'
+        hmackey='fac5f399-852c-4f12-8bc2-1703ca37bec3'>
+    </myscript-math-web>
+</template>
+<h1>Ichongiri Lives!</h1>
+</body>
+</html>
